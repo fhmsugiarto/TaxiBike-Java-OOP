@@ -6,7 +6,7 @@ public class ride extends order {
         this.setDestination(destination);
         this.setDistance(distance);
     }
-
+    //Override
     public void payment(){
         this.setCost(this.getDistance()*5000);
         System.out.println("Customer = "+this.getCustomer());
